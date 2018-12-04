@@ -1,5 +1,5 @@
 ## Day 1: Chronal Calibration 
----
+
 "We've detected some temporal anomalies," one of Santa's Elves at the Temporal Anomaly Research and Detection Instrument Station tells you.
 She sounded pretty worried when she called you down here.
 "At 500-year intervals into the past, someone has been changing Santa's history!"
@@ -49,7 +49,7 @@ For example, using the same list of changes above, the device would loop as foll
 - Current frequency  `1`, change of `-2`; resulting frequency `-1`.  
 - Current frequency `-1`, change of `+3`; resulting frequency  `2`.  
 - Current frequency  `2`, change of `+1`; resulting frequency  `3`.  
-- (At this point, the device continues from the start of the list.)  
+(At this point, the device continues from the start of the list.)  
 - Current frequency  `3`, change of `+1`; resulting frequency  `4`.  
 - Current frequency  `4`, change of `-2`; resulting frequency  `2`, which has already been seen.  
 
