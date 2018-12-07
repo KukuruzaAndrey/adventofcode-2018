@@ -1,4 +1,4 @@
-const { array2D, parseClaim, splitData } = require('./utils')
+const { array2D, parsedData} = require('./utils')
 const fabric = new array2D(1000)
 
 const markClaim = ({ left, top, wide, tall }) => {
@@ -13,5 +13,5 @@ const markClaim = ({ left, top, wide, tall }) => {
   }
 }
 
-splitData.map(claim => parseClaim(claim)).forEach(claim => markClaim(claim))
+parsedData.forEach(claim => markClaim(claim))
 console.log(fabric.count('X'))

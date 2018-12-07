@@ -37,5 +37,5 @@ const parseClaim = claim => {//#1 @ 146,196: 19x14
     tall: Number(tall)
   }
 }
-
-module.exports = { array2D, parseClaim, splitData }
+const parsedData = splitData.map(claim => parseClaim(claim))
+module.exports = { array2D, parseClaim, parsedData }
