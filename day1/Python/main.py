@@ -7,7 +7,7 @@ def formatter(varstr):
   return int(intstring) * mark
 
 def reader():
-  file1 = open("/day1/input","r")
+  file1 = open("../input","r")
   strarr = []
   strarr = file1.readlines()
   return strarr
